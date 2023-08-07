@@ -1,0 +1,35 @@
+<html>
+<head>
+
+	<title>Mug Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="cup.css">
+</head>
+
+<body background="sub_back.png">
+  <button class="btn btn-info back" onclick="back();"> <-- Back </button>
+  <center>
+    <h1 class="btn heading">Object Detection - Mug</h1>
+    <br>
+    <br>
+    <h3 class="btn btn-danger" id="status_head"> </h3>
+<br>
+<br>
+    <h5 class="btn btn-success" id="amount"> There are three small objects in which the model detected 1 object</h5>
+
+  </center>
+
+  <script src="cup.js"></script>
+
+</body>
+</html>

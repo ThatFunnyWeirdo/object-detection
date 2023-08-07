@@ -1,0 +1,38 @@
+body
+{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading
+{
+font-size: 24px;
+width: 100%;
+margin-top: 0px;
+background-color: #d7e0da;
+font-family: 'Mynerve', cursive;
+}
+
+#status
+{
+font-size: 18px;
+}
+
+canvas
+{
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+
+.back
+{
+    border-radius: 10px;
+    float: left;
+    font-size: 15px;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+#amount
+{
+    font-size: 18px;
+}
